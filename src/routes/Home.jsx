@@ -24,16 +24,6 @@ export default function CarStore() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-100">
-      {/* Navbar */}
-      <header className="bg-black text-white p-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">🚘 CarStore</h1>
-        <nav className="space-x-4">
-          <a href="#" className="hover:text-red-400">Home</a>
-          <a href="#" className="hover:text-red-400">Carros</a>
-          <a href="#" className="hover:text-red-400">Calculadora</a>
-        </nav>
-      </header>
-
       {/* Hero */}
       <section className="bg-cover bg-center h-[400px] flex items-center justify-center text-white" 
         style={{ backgroundImage: "url('https://i.ibb.co/xsgh1Fx/showroom.jpg')" }}>
