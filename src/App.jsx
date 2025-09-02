@@ -32,7 +32,8 @@ function App() {
 
         <Route path="/Client" element={<Header/>}/>
 
-        <Route path="/Client" element={<Sobre/>}/>
+        <Route path="/Client" element={<Sobre/>}/> 
+        
 
 
 
