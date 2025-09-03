@@ -31,6 +31,10 @@ function App() {
     
       </Routes>
     </main>
+
+
+
+    
     {/* Chamando o componente Footer */}
     <Footer/>
 
