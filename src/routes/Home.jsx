@@ -1,8 +1,10 @@
-import React from 'react';
 // Importando as imagens
 import mustangImg from '../assets/mustang.png';
 import bmwImg from '../assets/bmw.png';
 import audiImg from '../assets/audi.png';
+import ferrariImg from '../assets/ferrari.png'
+import { Link } from 'react-router-dom';
+
 
 export default function CarStore() {
   const cars = [
@@ -31,14 +33,16 @@ export default function CarStore() {
       {/* Hero */}
       <section
         className="bg-cover bg-center h-[400px] flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('')" }}
+        style={{ backgroundImage: `url(${ferrariImg})` }}
       >
         <div className="bg-black bg-opacity-60 p-6 rounded-2xl">
           <h2 className="text-4xl font-bold">Sua nova máquina espera por você</h2>
           <p className="mt-2">Escolha entre os melhores esportivos e de luxo</p>
-          <button className="mt-4 px-6 py-2 bg-red-600 rounded-xl hover:bg-red-700 transition">
-            Ver Carros
-          </button>
+    <Link to="/carros">
+      <button className="mt-4 px-6 py-2 bg-red-600 rounded-xl hover:bg-red-700 transition">
+        Ver Carros
+      </button>
+    </Link>
         </div>
       </section>
 
