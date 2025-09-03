@@ -1,9 +1,9 @@
 Projeto desenvolvido por :
 Eduardo Antonio Delarissia RM -563468
 Gabriel Viana de Souza RM - 564382
-João Pedro   RM -
-André  RM-
-Lucas    RM -
+João Pedro Palmeira    RM -563542
+André Ricardo Spinola Castor  RM-563964
+Lucas de Almeida Sales da Silca   RM -564458
 
 
 
