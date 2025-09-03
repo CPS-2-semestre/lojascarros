@@ -23,7 +23,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
 
         {/* Rota para chamar o carro */}
-        <Route path="/carro" element={<Carros/>}/>
+        <Route path="/carros" element={<Carros/>}/>
         
          {/* Rota para chamar a calculadora */}
         <Route path="/calculadora" element={<Calculadora/>}/>

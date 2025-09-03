@@ -6,19 +6,19 @@ export default function CarStore() {
       id: 1,
       name: "Mustang GT",
       price: "R$ 350.000",
-      img: "https://i.ibb.co/r3fhm7p/mustang.jpg",
+      img: "../assets/mustang.png",
     },
     {
       id: 2,
       name: "BMW M4",
       price: "R$ 420.000",
-      img: "https://i.ibb.co/Z1xrmwB/bmw.jpg",
+      img: "../assets/bmw.png",
     },
     {
       id: 3,
       name: "Audi R8",
       price: "R$ 950.000",
-      img: "https://i.ibb.co/Fx3B7Qh/audi.jpg",
+      img: "../assets/audi.png",
     },
   ];
 
@@ -26,7 +26,7 @@ export default function CarStore() {
     <div className="min-h-screen flex flex-col bg-gray-100">
       {/* Hero */}
       <section className="bg-cover bg-center h-[400px] flex items-center justify-center text-white" 
-        style={{ backgroundImage: "url('https://i.ibb.co/xsgh1Fx/showroom.jpg')" }}>
+        style={{ backgroundImage: "url('')" }}>
         <div className="bg-black bg-opacity-60 p-6 rounded-2xl">
           <h2 className="text-4xl font-bold">Sua nova máquina espera por você</h2>
           <p className="mt-2">Escolha entre os melhores esportivos e de luxo</p>
